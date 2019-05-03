@@ -1,0 +1,44 @@
+:root{
+
+    --primary: #af1e2d;
+    --secondary: #ffce00;
+    --dark: #171717;
+    --light: #f3f3f3;
+
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(to top left , var(--primary) 50%, var(--secondary) 50%);
+    font-family: 'Exo 2', 'Helvetica' , sans-serif;
+
+}
+
+body h1{
+
+    margin: 0;
+    font-size: 72px;
+
+}
+
+h1.bottom{ 
+
+    color: var(--light);
+    text-align: right;
+
+}
+
+body canvas {
+
+    background: var(--dark);
+    border: 3px solid var(--light);
+    box-shadow: 0 8px 6px -6px var(--dark);
+
+
+}
